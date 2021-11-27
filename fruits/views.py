@@ -1,6 +1,5 @@
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
-
 from .models import Fruit
 from .serializers import FruitSerializer
 from .permissions import IsOwnerOrReadOnly
